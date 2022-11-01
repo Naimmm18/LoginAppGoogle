@@ -28,5 +28,16 @@
         android:layout_centerInParent="true"
         android:indeterminateTint="@color/white"/>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:text="hello"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:fontFamily="sans-serif-condensed-medium"/>
+
 
 </RelativeLayout>
