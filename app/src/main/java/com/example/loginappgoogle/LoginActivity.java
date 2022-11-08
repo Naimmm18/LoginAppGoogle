@@ -26,9 +26,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(username.getText().toString().equals("username")&& password.getText().toString().equals("0987")){
-                    Toast.makeText(LoginActivity.this, "Login Successful??", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Login Successful!!", Toast.LENGTH_SHORT).show();
                 }else{
-                    Toast.makeText(LoginActivity.this, "Login Fail??", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Login Fail!!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
