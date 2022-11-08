@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/custom_edittext"
+    android:background="@drawable/logo"
     tools:context=".LoginActivity">
 
     <androidx.cardview.widget.CardView
@@ -90,7 +90,7 @@
         android:textAlignment="center"
         android:text="Not yet registered? SignUp Now!"
         android:layout_marginBottom="20dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="14sp"
         />
 
